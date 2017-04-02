@@ -66,7 +66,7 @@
         </li>
         <li class="treeview">
           <a href="index.php?page=departemen">
-            <i class="fa fa-industry"></i>
+            <i class="fa fa-building-o"></i>
             <span>Departemen</span>
             <!-- SUPAYA ADA TANDA <
             <span class="pull-right-container">
