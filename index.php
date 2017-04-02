@@ -8,7 +8,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login']!=1)
 
 if($_SESSION['role'] == 0)
 {
-  $role="Super Admin";
+  $role="Staff HRD";
 }
 else{
   $role="User";
@@ -21,7 +21,7 @@ require_once("admin/include/db.php");
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Admin | Dashboard</title>
+  <title>atWorks</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -56,12 +56,12 @@ require_once("admin/include/db.php");
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
     <script>
-var url = window.location;
-  // for treeview
-$('ul.treeview-menu a').filter(function() {
-  return this.href == url;
-}).closest('.treeview').addClass('active');
-  </script>
+      var url = window.location;
+        // for treeview
+      $('ul.treeview-menu a').filter(function() {
+        return this.href == url;
+      }).closest('.treeview').addClass('active');
+    </script>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

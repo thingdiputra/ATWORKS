@@ -29,31 +29,31 @@ img{max-width:100%;}
 /*end reset*/
 body{
 	font-family: 'Oxygen-Bold', sans-serif !important;
-	background:#927057;
+	background:#00C0EF;
 }
 /*-- main --*/
 
 
 @font-face {
   font-family: 'Oxygen-Bold';
-  src: url('css/Oxygen-Bold.eot');
-  src: url('css/Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
-       url('css/Oxygen-Bold.woff') format('woff'),
-       url('css/Oxygen-Bold.ttf') format('truetype'),
-       url('css/Oxygen-Bold.svg#Oxygen-Bold') format('svg');
+  src: url('Oxygen-Bold.eot');
+  src: url('Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Oxygen-Bold.woff') format('woff'),
+       url('Oxygen-Bold.ttf') format('truetype'),
+       url('Oxygen-Bold.svg#Oxygen-Bold') format('svg');
 }
 .main{
 	width: 30%;
-    margin: 3em auto 0;
-    padding: 4em 4em 5em;
-    background: #d5c395;
+    margin: 2em auto 0;
+    padding: 2em 4em 5em;
+    background: #ECF0F5;
 	position:relative;
 }
 .main:before{
 	position:absolute;
 	top: -6%;
     left: 44%;
-	background:url(../images/3.png) no-repeat 0px 0px;
+	background:url(../images/33.png) no-repeat 0px 0px;
 	display:block;
 	height:35px;
 	width:68px;
@@ -63,28 +63,30 @@ body{
     margin:0 0 3em;
 }
 .head h1{
-	color:#fff;
+	color:#3C8DBC;
 	text-align:center;
 	font-size:2em;
 	margin:0;
 }
 .figure{
 	text-align:center;
-	margin:4em auto;
+	margin:3em auto;
 }
 .figure img {
     width: 7%;
     margin: 0 auto;
-    border: 5px solid #d5c395;
+    border: 5px solid #ECF0F5;
+    border-radius: 100%;
 }
+
 .input_form input[type="text"],.input_form input[type="password"]{
 	outline: none;
     border: none;
-    background: #efe1c4;
+    background: #a0ecff;
     padding: 10px 10px 10px 60px;
     width: 85%;
     font-size: 1.1em;
-    color: #927057;
+    color: #3C8DBC;
     font-family: 'Oxygen-Bold', sans-serif;
 	border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -93,10 +95,10 @@ body{
     -ms-border-radius: 5px;
 }
 .input_form input[type="text"]{
-    background: url(../images/1.png) no-repeat 12px 10px #efe1c4;
+    background: url(../images/11.png) no-repeat 12px 10px #a0ecff;
 }
 .input_form input[type="password"]{
-	background: url(../images/2.png) no-repeat 12px 10px #efe1c4;
+	background: url(../images/22.png) no-repeat 12px 10px #a0ecff;
 }
 .input_form input[type="password"]{
 	margin:1.5em 0;
@@ -104,10 +106,10 @@ body{
 .input_form input[type="submit"]{
 	outline:none;
 	border:none;
-	background:#927057;
+	background:#3C8DBC;
 	padding:10px;
 	width:100%;
-	color:#d5c395;
+	color:#fff;
 	font-size:1.5em;
 	font-weight: 900;
 	font-family: 'Oxygen-Bold', sans-serif;
@@ -119,7 +121,7 @@ body{
     -ms-border-radius: 5px;
 }
 .input_form input[type="submit"]:hover{
-	background:#AA8264;
+	background:#00C0EF;
 }
 .footer{
 	text-align:center;
@@ -248,7 +250,7 @@ body{
 }
 @media (max-width:320px){
 	.main:before {
-		background: url(../images/3.png) no-repeat 0px 0px;
+		background: url(../images/33.png) no-repeat 0px 0px;
 		background-size: 100%;
 		height: 25px;
 		width: 45px;
@@ -265,10 +267,10 @@ body{
 		font-size: 14px;
 	}
 	.input_form input[type="text"] {
-		background: url(../images/1.png) no-repeat 18px 8px #efe1c4;
+		background: url(../images/11.png) no-repeat 18px 8px #a0ecff;
 	}
 	.input_form input[type="password"] {
-		background: url(../images/2.png) no-repeat 18px 8px #efe1c4;
+		background: url(../images/22.png) no-repeat 18px 8px #a0ecff;
 	}
 	.input_form input[type="submit"] {
 		font-size: 1em;

@@ -11,7 +11,7 @@ require_once("admin/include/db.php");
 <!DOCTYPE html>
 <html>
 <head>
-<title>ATWORK</title>
+<title>atWorks</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,18 +28,20 @@ require_once("admin/include/db.php");
 			<img src="images/administrator.png" alt="Logo"/>
 			<div class="main">	
 				<div class="head">
-					<h1 style="color: lightwhite;">ATWORK</h1>
+					<h1 style="color: lightwhite;">atWorks</h1>
 				</div>
 				<div class="input_form">
 					<form method="post" action="admin/login_proses.php">
-						<input type="text" value="Name" name="user" title="username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="" />
-						<input type="password" value="Password" name="pass" title="password"onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="" />
-						<input type="submit" value="LOGIN" name="submit" />
+						<!-- <input type="text" value="Name" name="user" title="username" placeholder="Input Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="" />
+						<input type="password" value="Password" name="pass" title="password" placeholder="Input Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="" /> -->
+						<input type="text" name="user" title="username" placeholder="Input Username" required="" />
+						<input type="password" name="pass" title="password" placeholder="Input Password" required="" />
+						<input type="submit" value="Login" name="submit" />
 					</form>
 				</div>
 			</div>
 			<div class="footer">
-				<p>&copy 2017 ATWORK Profile Widget. All rights reserved | Design by <a href="#">ATWORK.</a></p>
+				<p>&copy 2017 atWorks Profile Widget. All rights reserved | Design by <a href="#">atWorks.</a></p>
 			</div>
 		</div>
 	<!-- //main -->
