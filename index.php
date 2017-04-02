@@ -1,5 +1,5 @@
 <?php
-include('admin/session.php'); 
+include("admin/session.php"); 
 
 if(!isset($_SESSION['login']) || $_SESSION['login']!=1)
 {
@@ -13,6 +13,7 @@ if($_SESSION['role'] == 0)
 else{
   $role="User";
 }
+require_once("admin/include/db.php");
 ?>
 
 <!DOCTYPE html>
@@ -28,6 +29,7 @@ else{
   <!-- Font Awesome -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- Ionicons -->
+  <link rel="stylesheet" href="css/ionicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
@@ -67,7 +69,7 @@ $('ul.treeview-menu a').filter(function() {
   <?php include_once('template/navbar.php'); ?>
   
   <?php include_once('template/sidebar.php'); ?>
-  
+  <!-- include_once memasukkan skrip program hanya 1 kali saja tidak berulang-ulang -->
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -90,7 +92,7 @@ $('ul.treeview-menu a').filter(function() {
 
 </div>
 <!-- ./wrapper -->
-
+<script src="bootstrap/jquery.min.js"></script>
 <!-- jQuery 2.2.3 -->
 <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- jQuery UI 1.11.4 -->

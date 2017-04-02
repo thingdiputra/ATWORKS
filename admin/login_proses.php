@@ -21,7 +21,7 @@ include('include/db.php');
 
 		if($stmt->rowcount() == 0)
 		{
-			echo "<script>alert('Please check your username and password!'); window.location='../login.php'</script>";
+			echo "<script>alert('Please check your username or password!'); window.location='../login.php'</script>";
 		}
 		else if($stmt->rowcount() > 0){
 			session_start();
