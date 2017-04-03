@@ -16,7 +16,7 @@ $stmt->execute(['username' => $user, 'password' => $pass, 'role' => $role]);
 
 
 $_SESSION['pesan']="User baru berhasil ditambahkan.";
-$_SESSION['jenis_pesan'] ="info";
+$_SESSION['jenis_pesan'] ="success";
 header('Location: ../index.php?page=user');
 
 

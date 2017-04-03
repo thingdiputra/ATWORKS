@@ -3,17 +3,16 @@
  <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Control panel</small>
+        Message
       </h1>
       <ol class="breadcrumb">
         <li><a href="index.php?page=dashboard"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
+        <li class="active">Message</li>
       </ol>
     </section>
 
-       <section class="content">
+    <section class="content">
      
-   <h2>message</h2>
+
    
-     </section>
+    </section>

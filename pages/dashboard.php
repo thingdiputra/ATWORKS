@@ -12,7 +12,8 @@
       </ol>
     </section>
 
-   
+    <br>
+
     <section class="content">
      
       <div class="row">
@@ -27,7 +28,7 @@
             <div class="icon">
               <i class="ion ion-ios-person"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="index.php?page=user" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -42,7 +43,7 @@
             <div class="icon">
               <i class="ion ion-briefcase"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="index.php?page=departemen" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -57,7 +58,7 @@
             <div class="icon">
               <i class="ion ion-person-stalker"></i>
             </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="index.php?page=group" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
     
